@@ -1,0 +1,9 @@
+{
+  "draft_folder": "D:/path/to/JianyingPro Drafts",
+  "draft_name": "web_transition_video",
+  "resolution": [1080, 1920],
+  "segment_duration_sec": 4.5,
+  "max_chars_per_card": 72,
+  "fallback_transitions": ["叠化", "右移", "下移", "向上", "模糊"],
+  "default_background_color": "#000000"
+}
