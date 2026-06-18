@@ -5,5 +5,46 @@
   "segment_duration_sec": 4.5,
   "max_chars_per_card": 72,
   "fallback_transitions": ["叠化", "右移", "下移", "向上", "模糊"],
-  "default_background_color": "#000000"
+  "default_background_color": "#000000",
+  "audio_asset": null,
+  "sticker_manifest": "manifests/stickers.json",
+  "effect_manifest": "manifests/effects.json",
+  "filter_manifest": "manifests/filters.json",
+  "ui_automation_enabled": false,
+  "auto_generate_missing_assets": true,
+  "default_beat_bpm": 120,
+  "placeholder_stickers_enabled": true,
+  "unique_draft_name_by_content": true,
+  "backend": "kdenlive",
+  "kdenlive_version": "26.04.2",
+  "kdenlive_runtime_dir": "generated/runtime",
+  "auto_download_kdenlive": true,
+  "render_video_codec": "libx264",
+  "render_audio_codec": "aac",
+  "render_crf": 20,
+  "render_preset": "medium",
+  "render_fps": 30,
+  "render_with_unsupported_operations": true,
+  "cache_ttl_days": 7,
+  "extract_frames": false,
+  "whisper_mode": "disabled",
+  "language": "zh",
+  "comfy_url": "http://127.0.0.1:8188",
+  "comfy_workflow_bindings": {
+    "video_path": {"node": "10", "field": "video"},
+    "person_image": {"node": "11", "field": "image"},
+    "background_image": {"node": "12", "field": "image"},
+    "output_prefix": {"node": "13", "field": "filename_prefix"}
+  },
+  "scene_detection": {
+    "backend": "auto",
+    "threshold": 27.0,
+    "ffmpeg_scene_threshold": 0.35,
+    "min_scene_duration_sec": 0.8
+  },
+  "video_replace": {
+    "preserve_source_audio": true,
+    "skip_existing_processed": true,
+    "comfy_timeout_sec": 1800
+  }
 }

@@ -10,3 +10,12 @@ env/
 config.json
 assets/
 generated/
+generated/video_replace/
+generated/runtime/
+output/
+cache/
+screenshots/
+cookies.txt
+*_cookies.txt
+_auto_douyin_cookies.txt
+*.exe.part

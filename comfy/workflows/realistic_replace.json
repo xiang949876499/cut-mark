@@ -1,0 +1,29 @@
+{
+  "10": {
+    "class_type": "ReplaceThisWithYourVideoLoader",
+    "inputs": {
+      "video": "PLACEHOLDER_INPUT_VIDEO"
+    }
+  },
+  "11": {
+    "class_type": "ReplaceThisWithYourPersonReferenceLoader",
+    "inputs": {
+      "image": "PLACEHOLDER_PERSON_IMAGE"
+    }
+  },
+  "12": {
+    "class_type": "ReplaceThisWithYourBackgroundReferenceLoader",
+    "inputs": {
+      "image": "PLACEHOLDER_BACKGROUND_IMAGE"
+    }
+  },
+  "13": {
+    "class_type": "ReplaceThisWithYourVideoSaver",
+    "inputs": {
+      "filename_prefix": "PLACEHOLDER_OUTPUT_PREFIX"
+    }
+  },
+  "_note": {
+    "description": "This is a binding placeholder, not a runnable ComfyUI workflow. Export a real ComfyUI API workflow and keep/update the node ids configured in config.json."
+  }
+}
