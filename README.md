@@ -144,3 +144,9 @@ uv run python generate_draft.py --config config.json --input input/content.txt -
 - 自然语言剪辑要求可能存在歧义；执行前检查操作计划和能力报告。
 - 本地模型、ComfyUI、Whisper 和 YOLO 依赖由使用者自行部署与配置。
 - 长视频、生成式处理和高分辨率渲染会显著增加时间与硬件消耗。
+
+## 许可证 / License
+
+本仓库维护者的原创贡献采用 [GNU Affero General Public License v3.0（AGPL-3.0）](./LICENSE)。由于项目直接集成 Ultralytics YOLO，任何包含该集成的再分发、修改或面向网络用户的部署，都必须履行 AGPL-3.0 的相应源码与通知义务；不希望公开相应完整源码的商业/私有部署，应先取得 Ultralytics Enterprise 许可。详见[版权声明](./NOTICE)和[第三方声明](./THIRD_PARTY_NOTICES.md)。
+
+若将本项目作为可远程交互的服务运行，请在用户可见位置提供可免费取得相应源代码的链接，例如本仓库：[github.com/xiang949876499/cut-mark](https://github.com/xiang949876499/cut-mark)。
