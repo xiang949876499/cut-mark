@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="360" viewBox="0 0 1200 360" role="img" aria-labelledby="title desc">
+  <title id="title">cut-mark — text to editable video operations</title>
+  <desc id="desc">A production board with a compact text brief, operation plan, timeline, and explicit capability states.</desc>
+  <rect width="1200" height="360" rx="28" fill="#12120f"/>
+  <path d="M54 75H1146" stroke="#504d37" stroke-width="2"/>
+  <text x="58" y="64" fill="#ffd84a" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="18" letter-spacing="3">EDITING OPERATIONS / EXPLAINABLE OUTPUT</text>
+  <text x="58" y="136" fill="#fff8dc" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, PingFang SC, Microsoft YaHei, sans-serif" font-size="60" font-weight="700">cut-mark</text>
+  <text x="61" y="179" fill="#ddd5b6" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, PingFang SC, Microsoft YaHei, sans-serif" font-size="26">把教程文本变成可解释、可编辑的视频初稿</text>
+  <text x="61" y="211" fill="#a9a186" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, PingFang SC, Microsoft YaHei, sans-serif" font-size="21">Translate a brief into an operation plan, an editable project, and a render report.</text>
+  <text x="61" y="258" fill="#ffd84a" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="18">KDENLIVE · MLT · FFMPEG · COMFYUI</text>
+  <g transform="translate(650 65)" font-family="ui-monospace, SFMono-Regular, Menlo, monospace">
+    <rect x="0" y="12" width="115" height="112" rx="16" fill="#222019" stroke="#8a8058" stroke-width="2"/>
+    <text x="19" y="43" fill="#ffd84a" font-size="16" font-weight="700">TEXT</text><path d="M20 63H94M20 80H84M20 97H98" stroke="#d8d0b4" stroke-width="4" stroke-linecap="round"/>
+    <path d="M128 68H151" stroke="#ffd84a" stroke-width="4"/><polygon points="151,68 139,60 139,76" fill="#ffd84a"/>
+    <rect x="151" y="12" width="145" height="112" rx="16" fill="#27241a" stroke="#ffd84a" stroke-width="2"/>
+    <text x="171" y="43" fill="#fff8dc" font-size="16" font-weight="700">PLAN</text><text x="171" y="69" fill="#bfb697" font-size="13">trim · overlay</text><text x="171" y="91" fill="#bfb697" font-size="13">sync · render</text>
+    <path d="M309 68H332" stroke="#ffd84a" stroke-width="4"/><polygon points="332,68 320,60 320,76" fill="#ffd84a"/>
+    <rect x="332" y="12" width="153" height="112" rx="16" fill="#29261b" stroke="#8a8058" stroke-width="2"/>
+    <text x="352" y="43" fill="#fff8dc" font-size="16" font-weight="700">KDENLIVE</text>
+    <rect x="352" y="62" width="30" height="14" rx="3" fill="#ffd84a"/><rect x="387" y="62" width="49" height="14" rx="3" fill="#72683f"/><rect x="441" y="62" width="25" height="14" rx="3" fill="#d8d0b4"/>
+    <rect x="352" y="86" width="67" height="14" rx="3" fill="#d8d0b4"/><rect x="424" y="86" width="42" height="14" rx="3" fill="#ffd84a"/>
+    <g font-size="13" font-weight="700">
+      <rect x="0" y="159" width="144" height="35" rx="11" fill="#243722" stroke="#8fc56b"/><text x="42" y="182" fill="#dff7ca">EXACT</text>
+      <rect x="159" y="159" width="152" height="35" rx="11" fill="#403719" stroke="#ffd84a"/><text x="174" y="182" fill="#fff0a4">APPROX</text>
+      <rect x="326" y="159" width="158" height="35" rx="11" fill="#3f2220" stroke="#df8178"/><text x="342" y="182" fill="#ffd4cf">UNSUPPORTED</text>
+    </g>
+    <text x="14" y="236" fill="#a9a186" font-size="14">visible states, no silent success</text>
+  </g>
+</svg>
